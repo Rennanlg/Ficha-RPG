@@ -11,36 +11,40 @@
     <h1 id="tittle"> Ficha_rpg_teste </h1>
     <hr>
 
-    <form id="header" action="">
-        <label for="nome">Nome:</label>
-        <input name="nome" id="nome" type="text" placeholder="nome do personagem">
-        <label for="decendencia">Decendência:</label>
-        <input name="decendencia" id="decendencia" type="text" placeholder="origem">
-        <label for="jogador">Jogador:</label>
-        <input name="jogador" id="jogador" type="text" placeholder="nome do jogador">
-        <br>
-        <label for="raca">Raça:</label>
-        <input name="raca" id="raca" type="text" placeholder="ancestralidade">
-        <label for="classe">Classe/Especialidade:</label>
-        <input name="classe" id="classe" type="text" placeholder="formação">
-        <label for="moral">Moral:</label>
-        <input name="moral" id="moral" type="text" placeholder="alinhamento">
-    </form>
+    <form id="" action="">
+        <fieldset id="header">
+            <legend>Apresentação</legend>
+            <label for="nome">Nome:</label>
+            <input name="nome" id="nome" type="text" placeholder="nome do personagem">
+            <label for="decendencia">Decendência:</label>
+            <input name="decendencia" id="decendencia" type="text" placeholder="origem">
+            <label for="jogador">Jogador:</label>
+            <input name="jogador" id="jogador" type="text" placeholder="nome do jogador">
+            <br>
+            <label for="raca">Raça:</label>
+            <input name="raca" id="raca" type="text" placeholder="ancestralidade">
+            <label for="classe">Classe/Especialidade:</label>
+            <input name="classe" id="classe" type="text" placeholder="formação">
+            <label for="moral">Moral:</label>
+            <input name="moral" id="moral" type="text" placeholder="alinhamento">
+    </fieldset>
     
     <br>
 
-    <form id="status" action="">
+    <fieldset id="status">
+        <legend>Status</legend>
         <label for="corpo">CORPO</label>
         <input name="corpo" id="corpo" type="number" placeholder="0">
         <label for="mente">MENTE</label>
         <input name="mente" id="mente" type="number" placeholder="0">
         <label for="alma">ALMA</label>
         <input name="alma" id="alma" type="number" placeholder="0">
-    </form>
+    </fieldset>
 
     <br>
 
-    <form id="health" action="">
+    <fieldset id="health">
+        <legend>Saúde</legend>
             <label for="atualpv">PV Atual</label>
             <select name="atualpv" id="atualpv">
                 <option value="100" selected>100%</option>
@@ -71,12 +75,13 @@
                 <option value="1">1%</option>
             </select>
 
-    </form>
+    </fieldset>
 
-    <form id="storyline" action="">
-        <label for="storyline">Histórico e Personalidade:</label><br>
+    <fieldset id="storyline">
+        <legend>Histórico e Personalidade</legend>
         <textarea name="storyline" id="storyline" cols="50" rows="10" placeholder="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora nisi doloribus excepturi, assumenda totam deserunt ipsam accusantium, eos odio voluptas molestiae voluptatibus asperiores dolore itaque? Beatae quis explicabo molestiae odit."></textarea>
-    </form>
+    </fieldset>
+</form>
 
 </main>
 
