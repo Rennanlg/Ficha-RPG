@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  display: flex;
+  max-width: 100vw;
+}
+
+main {  
+  flex-direction: column;
+  align-items: baseline;
+}
+
+body {
+  background-color: beige;
+}
+
+h1 {
+  font-size: 45px;
+  max-width: 100vw;
+}
+
+.container {
+  justify-content: space-between; 
+  align-items: center;
+}
+
+#form {
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: center;
+  gap: 8px 12px;
+}
+
+#header {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-self: flex-start;
+  max-width: 100vw;
+  gap: 2px 4px;
+}
+
+#status {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-self: flex-start;
+  max-width: 100vw;
+  gap: 2px 4px;
+}
+
+#health {
+  align-self: flex-start;
+}
+
+#storyline {
+  align-self: flex-start;
+  width: 85vw;
+}
+
